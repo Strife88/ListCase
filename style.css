@@ -29,7 +29,7 @@ span {
   line-height: 17px;
 }
 
-h4 {
+h4,input {
   color: #000;
   font-family: open sans;
   font-size: 15px;
@@ -40,13 +40,18 @@ h4 {
 
 .mnn-name {
   color: #404358;
+    font-size: 10px
 }
 
+.active .mnn {
+    background: #1e88e530;
+}
 .mnn {
   background: #F6F6F6;
   display: inline-block;
-  padding: var(--xxxs) var(--xs);
-  margin-top: var(--s);
+  padding: 0px var(--xs);
+  margin-left: var(--s);
+  border-radius: var(--xs);
 }
 
 .mnn-title+.mnn-name {
@@ -56,11 +61,12 @@ h4 {
 .mnn-title {
   color: var(--midGrey);
   font-weight: 700;
+  font-size: 10px;
 }
 
 .secondaryText {
   color: var(--darkGrey);
-  width: 261px;
+  width: 255px;
 }
 
 .priceGroup {
@@ -80,18 +86,15 @@ h4 {
 }
 
 .title {
-  width: 412px;
+  width: 468px;
 }
 
 .available-group {
-  width: 127px;
+  width: 107px;
 }
 
 .special {
-  width: 88px;
-  flex-direction: column;
-  display: flex;
-  align-items: flex-end;
+  width: 30px;
 }
 
 .sale {
