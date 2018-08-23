@@ -35,9 +35,7 @@ h4 {
   font-size: 15px;
   font-weight: 500;
 }
-.notAvail h4 {
-    color: var(--midGrey);
-}
+
 
 
 .mnn-name {
@@ -159,9 +157,11 @@ border: 1px solid var(--blueline);
   box-sizing: border-box;
   background: white;
 }
-.notAvail .counter h4 {
-    color:red;
-    }
+
+.notAvail h4 {
+    color: var(--midGrey);
+}
+
 .bgr-image {
     z-index: -2;
     position: absolute;
