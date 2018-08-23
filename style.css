@@ -147,12 +147,7 @@ div.cardItem {
  div.cardItem:hover {
 border: 1px solid var(--blueline);
 }
-body {
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  padding-top: var(--l);
-}
+
 
 .counter h4 {
   color: var(--darkGrey);
@@ -163,7 +158,35 @@ body {
   border: 1px solid var(--lightmidGrey);
   box-sizing: border-box;
   background: white;
-
+}
 .notAvail .counter h4 {
     color:red;
     }
+.bgr-image {
+    z-index: -2;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background: url(BG.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;  
+}
+.mask {
+    z-index: -1;
+    position: absolute;
+    top:250px;
+    left:0px;
+    background: white;
+    width: 1370px;
+    height: 1700px;
+     
+}
+.product-list {
+  flex-direction: column;
+  display: flex;
+  align-items: left;
+  padding-top: 280px;
+    padding-left:20px;
+}
+
