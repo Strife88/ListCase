@@ -1,0 +1,169 @@
+:root {
+  --xxxs: 2px;
+  --xxs: 4px;
+  --xs: 8px;
+  --s: 12px;
+  --m: 16px;
+  --l: 24px;
+  --xl: 32px;
+  --xxl: 44px;
+  --lightGrey: #F6F6F6;
+  --lightmidGrey: #DCE0E5;
+  --midGrey: #919BA2;
+  --darkGrey: #757575;
+  --black: #404358;
+  --orng: #F5A623;
+  --blueback: #1E88E510;
+  --blueline: #1E88E590;
+}
+
+* {
+  font-family: open sans;
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+}
+
+span {
+  font-size: 12px;
+  line-height: 17px;
+}
+
+h4 {
+  color: #000;
+  font-family: open sans;
+  font-size: 15px;
+  font-weight: 500;
+}
+.notAvail h4 {
+    color: var(--midGrey);
+}
+
+
+.mnn-name {
+  color: #404358;
+}
+
+.mnn {
+  background: #F6F6F6;
+  display: inline-block;
+  padding: var(--xxxs) var(--xs);
+  margin-top: var(--s);
+}
+
+.mnn-title+.mnn-name {
+  margin-left: var(--xxs);
+}
+
+.mnn-title {
+  color: var(--midGrey);
+  font-weight: 700;
+}
+
+.secondaryText {
+  color: var(--darkGrey);
+  width: 261px;
+}
+
+.priceGroup {
+  flex-direction: row;
+  display: flex;
+  align-items: flex-end;
+  width: 90px;
+  height: 20px;
+}
+
+.RowItem {
+  display: grid;
+  column-gap: var(--l);
+  grid-template-columns: auto auto auto auto auto;
+  width: 1074px;
+  margin-right: var(--l);
+}
+
+.title {
+  width: 412px;
+}
+
+.available-group {
+  width: 127px;
+}
+
+.special {
+  width: 88px;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-end;
+}
+
+.sale {
+  text-align: right;
+}
+
+.price {
+  width: 56px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.AP-controler {
+  width: 26px;
+  margin-right: var(--s);
+  cursor: pointer;
+}
+
+.counter {
+  height: auto;
+}
+
+div.buy-btn {
+  width: 121px;
+  margin-left: var(--xs);
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--lightmidGrey);
+  box-sizing: border-box;
+  background: white;
+}
+
+div.cardItem {
+  padding: var(--m) var(--m) var(--l) var(--s);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.20);
+  display: flex;
+  flex-direction: row;
+  width: 1337px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
+
+.active {
+  background-color: var(--blueback);
+  border: 1px solid #1E88E500 !important;
+}
+ div.cardItem:hover {
+border: 1px solid var(--blueline);
+}
+body {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding-top: var(--l);
+}
+
+.counter h4 {
+  color: var(--darkGrey);
+  font-weight: 700;
+  text-align: right;
+  width: 44px;
+  padding: var(--xs);
+  border: 1px solid var(--lightmidGrey);
+  box-sizing: border-box;
+  background: white;
+
+.notAvail .counter h4 {
+    color:red;
+    }
