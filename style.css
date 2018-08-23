@@ -86,7 +86,7 @@ h4,input {
 }
 
 .title {
-  width: 468px;
+  
 }
 
 .available-group {
@@ -114,7 +114,6 @@ h4,input {
 }
 
 .counter {
-  height: auto;
 }
 
 div.buy-btn {
@@ -127,6 +126,7 @@ div.buy-btn {
   border: 1px solid var(--lightmidGrey);
   box-sizing: border-box;
   background: white;
+  padding: var(--xs) 0px;
 }
 
 div.cardItem {
@@ -153,8 +153,8 @@ border: 1px solid var(--blueline);
 .counter h4 {
   color: var(--darkGrey);
   font-weight: 700;
-  text-align: right;
-  width: 44px;
+  text-align: center;
+  width: 72px;
   padding: var(--xs);
   border: 1px solid var(--lightmidGrey);
   box-sizing: border-box;
@@ -193,3 +193,14 @@ border: 1px solid var(--blueline);
     padding-left:20px;
 }
 
+
+.counter span {
+    display: flex;
+    font-size:10px;
+    padding-top: var(--xxxs);
+    color:var(--midGrey);
+}
+
+.title-group {
+    width: 468px;
+}
