@@ -26,7 +26,7 @@
 
 span {
   font-size: 12px;
-  line-height: 17px;
+  line-height: 16px;
 }
 
 h4,input {
@@ -81,7 +81,7 @@ h4,input {
   display: grid;
   column-gap: var(--l);
   grid-template-columns: auto auto auto auto auto;
-  width: 1074px;
+  width: 1046px;
   margin-right: var(--l);
 }
 
